@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.list {
+  width: 60%;
+}
+.form {
+  width: 40%;
+  padding: 15px;
+}
+.form p {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.form input {
+  margin-bottom: 15px;
+  font-size: 20px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.form button {
+  background-color: blue;
+  outline: none;
+  border: none;
+  color: white;
+  width: 40%;
+  border-radius: 5px;
+  padding: 10px 0px;
+  display: block;
+  margin: auto;
+  font-size: 20px;
+}
